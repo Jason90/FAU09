@@ -42,3 +42,8 @@ Git is a distributed version control system that tracks changes to files, enabli
 
 ## Merging branches
 `git merge <branch-name>`
+
+## Delete branch
+`git branch -D <branch-name>`
+
+aaa
