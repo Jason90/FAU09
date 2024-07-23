@@ -30,3 +30,12 @@ Git is a distributed version control system that tracks changes to files, enabli
 
 ## Adds multiple files and folder to the staging area
 `git add .`
+
+## Branching $ Merging
+`git branch new-feature`
+
+## Check all branches
+`git branch -a`
+
+## Switching Branches
+`git switch <branch-name>`
