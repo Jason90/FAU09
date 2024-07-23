@@ -27,3 +27,6 @@ Git is a distributed version control system that tracks changes to files, enabli
 ## Check commits
 `git log`
 `git log --oneline`
+
+## Adds multiple files and folder to the staging area
+`git add .`
