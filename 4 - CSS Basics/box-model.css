@@ -1,0 +1,60 @@
+
+/* Adding padding to each sides. */
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+
+/* Padding Shorthand */
+.box2 {
+    /* 1 value - all sides. */
+    /* 2 values - (top and bottom)(left and right) */
+    /* 3 values - top, (left and right), bottom */
+    /* 4 values - top, right, bottom, left (counter clockwise) */
+    padding: 10px 20px 30px 40px;
+}
+
+/* Margin to each side */
+.box3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+/* Margin Shorthand */
+.box4 {
+    /* 1 value - all sides. */
+    /* 2 values - (top and bottom)(left and right) */
+    /* 3 values - top, (left and right), bottom */
+    /* 4 values - top, right, bottom, left (counter clockwise) */
+    margin: 10px 20px 30px 40px;
+}
+
+/* Borders */
+.mix-borders {
+    /* 1 value - all sides. */
+    /* 2 values - (top and bottom)(left and right) */
+    /* 3 values - top, (left and right), bottom */
+    /* 4 values - top, right, bottom, left (counter clockwise) */
+    background-color: skyblue;
+    height: 100px;
+    width: 200px;
+    color: white;
+    border-style: solid dashed dotted double;
+    border-width: 10px;
+    border-color: tomato;
+}
+
+.single-border {
+    margin-top: 10px;
+    background-color: yellow;
+    color: red;
+    height: 100px;
+    width: 200px;
+    /* width, style, color */
+    border: 10px solid pink;
+}

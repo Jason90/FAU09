@@ -1,0 +1,30 @@
+/* Relative Positioning, Relative to its original position */
+.relative{
+    background-color: cadetblue;
+    position: relative;
+    top:0px;
+    left:0px;
+}
+
+/* Absolute Positioning, relative to its nearest ancestor */
+.absolute{
+    background-color: orange;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+/* Fix Positioning, relative to the viewport of the user */
+.fixed{
+    background-color: blueviolet;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+/* Sticky Positioning- sticks to the top of the viewport */
+.sticky{
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+}

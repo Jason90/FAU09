@@ -1,0 +1,76 @@
+.font-family{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.line-height{
+    line-height: 4;
+}
+
+.letter-spacing{
+    letter-spacing: 4px;
+}
+
+.text-shadow{
+    /* Horizontal offset:Negative(Left),Positive(Right) */
+    /* Vertical offset:Negative(Up),Positive(Down) */
+    /* Blur Radius */
+    /* Color */
+    text-shadow: 0px 0px 10px black;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.remove-text-decoration{
+    text-decoration: none;
+}
+
+.color-names{
+    color: tomato;
+    background-color: yellow;
+}
+
+.hexadecimal{
+    /* 0-9, A-F */
+    /* #RRGGBB */
+    color: #FF0000;
+    background-color: #00FF00;
+}
+
+.rgb{
+    /* Red, green. blue, alpha */
+    /* 0-255 */
+    color: rgb(0,0,255);
+    background-color: rgba(0,0,255,0.5);
+}
+
+.absolute-unit{
+    font-size: 20px;
+}
+
+/* 1em=18px */
+.relative-unit-em{
+    font-size: 2em;
+}
+
+/* Based on the root element:html:default:16px */
+.relative-unit-rem{
+    font-size: 1rem;
+}

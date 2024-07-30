@@ -1,0 +1,56 @@
+/* start / center / end */
+/* .flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+} */
+
+/* Set the flex to column / row */
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: row;
+}
+
+/* Flex wrap */
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+/* Stretch */
+.flexContainer {
+    display: flex;
+    align-items: center;
+    align-items: stretch;
+}
+
+/* Flex grow - The element's willingness to grow */
+.flexItem1{
+    flex-grow: 1; /* 1/4 */
+}
+.flexItem2{
+    flex-grow: 2; /* 1/2 */
+}
+.flexItem3{
+    flex-grow: 1; /* 1/4 */
+}
+
+
+
+/* Flex shrink - The element's willingness to shink */
+.flexItem1{
+    flex-shrink: 2; /* 2/5 */
+    flex-basis: 300px;
+}
+.flexItem2{
+    flex-shrink: 1; /* 1/5 */
+    flex-basis: 300px;
+}
+.flexItem3{
+    flex-shrink: 2; /* 2/5 */
+    flex-basis: 300px;
+}
