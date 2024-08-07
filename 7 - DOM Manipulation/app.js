@@ -15,6 +15,7 @@ console.log("Elements accessed using Tagname:", listItems);
 // Modify the background color property
 listItems[3].style.backgroundColor = "skyblue";
 listItems[3].style.color = "crimson";
+document.getElementsByTagNameNS
 
 // .querySelectorAll()
 // #id, .class-name, tag
